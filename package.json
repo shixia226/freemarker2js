@@ -10,5 +10,13 @@
     "shixia"
   ],
   "author": "shixia",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shixia226/freemarker2js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shixia226/freemarker2js/issues"
+  },
+  "homepage": "https://github.com/shixia226/freemarker2js#readme"
 }
