@@ -1,6 +1,6 @@
 {
   "name": "freemarker2js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "transform freemarker to js",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/shixia226/freemarker2js#README",
   "dependencies": {
-    "freemarker2js-base": "^1.0.0"
+    "freemarker2js-base": "^1.0.1"
   }
 }

@@ -11,7 +11,7 @@ Freemarker integration for Web
 #### Build javascript
 ```javascript
 const freemarker = require('freemarker2js');
-const template = freemarker('<h1>${title}</h1>');
+let template = freemarker('<h1>${title}</h1>');
 
 /*output
 function(context, global) {
@@ -20,8 +20,16 @@ function(context, global) {
 }
 */
 console.log(template);
+
+template = freemarker('<h1>${title}</h1>', false);
+
+/*output
+var global = (context = context || {});
+return "<h1>" + (context.title) + "</h1>"
+*/
+console.log(template);
 ```
-*NOTICE: Variable ```template``` is a string type
+*NOTICE: variable ```template``` is a string type
 
 #### Render string
 ```javascript
