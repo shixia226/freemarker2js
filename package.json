@@ -1,6 +1,6 @@
 {
   "name": "freemarker2js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "transform freemarker to js",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "shixia"
   ],
   "author": "shixia",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shixia226/freemarker2js.git"
@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/shixia226/freemarker2js/issues"
   },
-  "homepage": "https://github.com/shixia226/freemarker2js#readme",
+  "homepage": "https://github.com/shixia226/freemarker2js#README",
   "dependencies": {
     "freemarker2js-base": "^1.0.0"
   }
