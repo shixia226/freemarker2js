@@ -1,15 +1,20 @@
 {
   "name": "freemarker2js",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "transform freemarker to js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "shixia"
+    "freemarker2js",
+    "freemarker",
+    "javascript",
+    "ftl",
+    "js",
+    "shixia226"
   ],
-  "author": "shixia",
+  "author": "shixia226",
   "license": "MIT",
   "repository": {
     "type": "git",
